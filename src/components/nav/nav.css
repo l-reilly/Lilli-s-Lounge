@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.nav-link {
+    padding: 1.2rem;
+   text-decoration: none; 
+   color: #CA907E;
+}
+.nav-link:visited {
+    color: #994636;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lavishly+Yours&display=swap');
+
+.header-text {
+    font-family: 'Lavishly Yours', cursive;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    font-size: 2rem;
+    color: white;
+    background: linear-gradient(
+        45deg, 
+        transparent, 
+        #2C5530,
+        transparent
+    );
+
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+
+}
