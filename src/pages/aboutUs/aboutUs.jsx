@@ -1,7 +1,10 @@
 import React from "react";
+import './aboutUs.css'
+import { Map } from '../../components/map'
 
 function About() {
   return (
+    
     <div className="about">
       <div className="container">
         <div className="row align-items-center my-5">
@@ -13,16 +16,31 @@ function About() {
             />
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">About</h1>
+            <h1 className="font-weight-light">About Us</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              We are a casual "green" cafe located in the heart of the enchanting city of Oviedo. Come join us for a coffee in the garden room, or enjoy an extensive menu of American-fusion dishes. We look forward to seeing you soon!
+
+            </p>
+          </div>
+          <div className="col-lg-5">
+            <h1 className="font-weight-light">Contact Us</h1>
+            <p>
+              Please get in touch with any questions or doubts! 
+              <br></br>
+              Use our phone number or email to make a reservation.
+            </p>
+          </div>
+          <div className="col-lg-5">
+            <h1 className="font-weight-light">Our Menu</h1>
+            <p>
+              We are constantly updating our menus to bring our customers the freshest, most seasonal ingredients.
+              <br></br>
+              Check out our current offerings here. 
             </p>
           </div>
         </div>
       </div>
+      <Map />
     </div>
   );
 }
