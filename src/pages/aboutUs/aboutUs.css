@@ -45,3 +45,10 @@
       padding-left: 10%;
       padding-right: 10%;
   }
+  .icon {
+      padding-top: 1.5rem;
+  }
+  .col-lg-5 a {
+      text-decoration: none;
+      color:#D3D0CB;
+  }

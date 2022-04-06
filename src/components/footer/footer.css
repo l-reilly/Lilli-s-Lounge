@@ -3,11 +3,18 @@ footer {
     text-align: center;
     font-size: 0.9 rem;
     margin-top: 7rem;
-    background: #D3D0CB;
+    background: #CA907E;;
     font-family: 'Cormorant Garamond', serif;
     height: 2.7rem;
+    color: #162521;
 }
-
+footer a {
+    color: #162521;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #162521;
+}
 .permalinks {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +22,7 @@ footer {
     gap: 2rem;
     margin: 0 auto 3rem;
     list-style: none;
+    
 }
 
  

@@ -2,6 +2,8 @@ import React from "react";
 import './aboutUs.css'
 import { Map } from '../../components/map'
 import {GiFallingLeaf} from "react-icons/gi"
+import {GiFruitTree} from "react-icons/gi"
+import {GiSpotedFlower} from "react-icons/gi"
 
 function About() {
   return (
@@ -16,16 +18,18 @@ function About() {
               alt=""
             />
           </div>
+          
           <div className="col-lg-5">
-          <GiFallingLeaf  className="icon"/>
-            <h1 className="font-weight-light">About Us</h1>
+          <GiFallingLeaf  className="icon" size={28}/>
+          <a href="/"><h1 className="font-weight-light">About Us</h1></a>
             <p>
               We are a casual "green" cafe located in the heart of the enchanting city of Oviedo. Come join us for a coffee in the garden room, or enjoy an extensive menu of American-fusion dishes. We look forward to seeing you soon!
 
             </p>
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Contact Us</h1>
+          <GiFruitTree className="icon" size={28}/>
+            <a href="/contact"><h1 className="font-weight-light">Contact Us</h1></a>
             <p>
               Please get in touch with any questions or doubts! 
               <br></br>
@@ -33,7 +37,8 @@ function About() {
             </p>
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Our Menu</h1>
+          <GiSpotedFlower className="icon" size={28}/>
+            <a href="/menu"><h1 className="font-weight-light">Our Menu</h1></a>
             <p>
               We are constantly updating our menus to bring our customers the freshest, most seasonal ingredients.
               <br></br>
