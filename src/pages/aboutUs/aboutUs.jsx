@@ -1,13 +1,14 @@
 import React from "react";
 import './aboutUs.css'
 import { Map } from '../../components/map'
+import {GiFallingLeaf} from "react-icons/gi"
 
 function About() {
   return (
     
     <div className="about">
       <div className="container">
-        <div className="row align-items-center my-5">
+        <div className="about-items">
           <div className="col-lg-7">
             <img
               className="img-fluid rounded mb-4 mb-lg-0"
@@ -16,6 +17,7 @@ function About() {
             />
           </div>
           <div className="col-lg-5">
+          <GiFallingLeaf  className="icon"/>
             <h1 className="font-weight-light">About Us</h1>
             <p>
               We are a casual "green" cafe located in the heart of the enchanting city of Oviedo. Come join us for a coffee in the garden room, or enjoy an extensive menu of American-fusion dishes. We look forward to seeing you soon!
@@ -40,7 +42,6 @@ function About() {
           </div>
         </div>
       </div>
-      <Map />
     </div>
   );
 }

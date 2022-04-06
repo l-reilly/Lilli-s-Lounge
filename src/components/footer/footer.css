@@ -1,0 +1,20 @@
+footer {
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9 rem;
+    margin-top: 7rem;
+    background: #D3D0CB;
+    font-family: 'Cormorant Garamond', serif;
+    height: 2.7rem;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+    list-style: none;
+}
+
+ 
